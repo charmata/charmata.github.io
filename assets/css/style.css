@@ -1,28 +1,37 @@
 body {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Patua One", sans-serif;
   font-size: 1rem;
-  height: 100vh;
+  height: 100%;
   background: url(../images/bg.jpg) center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 #content {
-  background-color: dimgrey;
-  opacity: 0.9;
+  color: white;
+}
+#intro {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+}
+#intro h1 {
+  letter-spacing: 0.5rem;
+}
+#portfolio {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.cards {
   padding: 20px;
 }
 .card {
-  opacity: 0.9;
   padding: 0;
-  margin: 0 20px 20px 0;
+  margin-bottom: 30px;
   border: none;
   border-radius: 0.25rem;
 }
 .card-body {
-  background-color: lightgrey;
-  opacity: 0.9;
+  background-color: rgba(0, 0, 0, 0.8);
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
-}
-.cards {
-  padding: 20px;
 }

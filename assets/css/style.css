@@ -6,6 +6,16 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+.display-5 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.display-6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
 #content {
   color: white;
 }
@@ -13,13 +23,17 @@ body {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
   align-items: center;
+  text-shadow: 0 0 2em black, 0 0 0.2em black;
 }
 #intro h1 {
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
 }
 #portfolio {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
+}
+#portfolio h3 {
+  text-shadow: 0 0 2em black, 0 0 0.2em black;
 }
 .card {
   padding: 0;

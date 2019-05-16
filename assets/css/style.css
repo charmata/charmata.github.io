@@ -50,14 +50,21 @@ body {
   border-radius: 0.25rem;
 }
 .card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.8);
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
+}
+.card-title {
+  margin-bottom: 0.2rem;
 }
 .btn-primary {
   color: lightyellow;
   background-color: #3c1a3f;
   border-color: #3c1a3f;
+  margin-left: 10px;
 }
 .btn-primary:hover,
 .btn-primary:not(:disabled):not(.disabled):active {

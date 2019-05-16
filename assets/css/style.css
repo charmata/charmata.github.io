@@ -44,31 +44,30 @@ body {
   text-shadow: 0 0 2em black, 0 0 0.2em black;
 }
 .card {
+  display: flex;
   padding: 0;
   margin-bottom: 40px;
   border: none;
   border-radius: 0.25rem;
 }
-.card-body {
+.card-img {
+  object-fit: cover;
+}
+.card-img-overlay {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  border-bottom-right-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  flex-flow: column wrap;
+  background-color: rgba(60, 26, 63, 0.8);
+  opacity: 0;
+}
+.card:hover .card-img-overlay {
+  opacity: 1;
+  transition: opacity 0.2s linear;
 }
 .card-title {
-  margin-bottom: 0.2rem;
+  margin-bottom: 1rem;
 }
-.btn-primary {
-  color: lightyellow;
-  background-color: #3c1a3f;
-  border-color: #3c1a3f;
+.btn {
   margin-left: 10px;
-}
-.btn-primary:hover,
-.btn-primary:not(:disabled):not(.disabled):active {
-  color: lightyellow;
-  background-color: #842e53;
-  border-color: #842e53;
 }

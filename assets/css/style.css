@@ -71,3 +71,14 @@ body {
 .btn {
   margin-left: 10px;
 }
+.social-links a {
+  color: lightyellow;
+  text-decoration: none;
+}
+.social-links a:hover {
+  color: #8c677d;
+}
+.social-links i {
+  font-size: 3rem;
+  margin-right: 10px;
+}

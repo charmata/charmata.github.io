@@ -67,6 +67,7 @@ body {
 }
 .card-title {
   margin-bottom: 1rem;
+  /*font-size: 3vmin;*/
 }
 .btn {
   margin-left: 10px;

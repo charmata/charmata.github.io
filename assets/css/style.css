@@ -54,6 +54,7 @@ body {
 }
 .card-img {
   object-fit: cover;
+  height: 35vh;
 }
 .card-img-overlay {
   display: flex;
